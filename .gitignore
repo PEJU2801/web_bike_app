@@ -4,8 +4,5 @@ Temp/
 # Ignore .venv
 .venv
 
-# Ignore saved models
-*.joblib
-
 # Ignore pycache
 __pycache__/
