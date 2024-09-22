@@ -1,0 +1,14 @@
+# Ignore the Temp directory and its contents
+Temp/
+
+# Ignore poetry files
+poetry*
+
+# Ignore .venv
+.venv
+
+# Ignore saved models
+*.joblib
+
+# Ignore pycache
+__pycache__/

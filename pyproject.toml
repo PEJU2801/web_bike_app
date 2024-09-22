@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "final-project-python"
+version = "0.1.0"
+description = ""
+authors = ["Julien Pezzi <julien.pezzi@outlook.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.1.1"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+pandas = "^2.2.2"
+joblib = "^1.4.2"
+scikit-learn = "^1.5.2"
+pyarrow = "^17.0.0"
+streamlit = "^1.38.0"
+folium = "^0.17.0"
+streamlit-folium = "^0.22.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
